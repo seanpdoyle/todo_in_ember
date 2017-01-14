@@ -1,2 +1,6 @@
 <h1>Hello world</h1>
-{{outlet}}
+<ul>
+  {{#each posts |post|}}
+      <li class="post">{{post.title}}</li>
+  {{/each}}
+</ul>

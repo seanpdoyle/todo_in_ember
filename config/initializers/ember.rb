@@ -1,3 +1,3 @@
-EmberCLI.configure do |c|
-  c.app :frontend
+EmberCLI.configure do |config|
+  config.app :frontend
 end

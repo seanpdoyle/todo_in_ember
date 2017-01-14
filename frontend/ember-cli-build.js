@@ -4,6 +4,10 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
+    fingerprint: {
+      // matches the `/admin_panel` mount point
+      prepend: 'localhost:3000 ',
+    }
     // Add options here
   });
 
